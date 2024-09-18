@@ -5,7 +5,7 @@ import speech_recognition as sr # Converts my voice commands to text
 import pyttsx3 # Read out text output to voice. 
 import webbrowser 
 
-Model = "gpt-4"
+Model = "gpt-4o-mini"
 client = OpenAI(api_key=api_data)
 
 def Reply(question):
